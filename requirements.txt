@@ -1,0 +1,12 @@
+# ── Core ───────────────────────────────────────────────────
+pandas>=2.0.0
+requests>=2.31.0          # Step 1 (GitHub API), Step 3 (Ollama)
+python-dotenv>=1.0.0      # .env loading
+gitpython>=3.1.0          # Step 3 (llm_as_judge.py)
+
+# ── Tests ──────────────────────────────────────────────────
+pytest>=7.0
+
+# The analysis engine (python/ppoem) uses only the standard library.
+# git must be installed and on PATH.
+# Python 3.9+ (3.11+ recommended: one process per repository is recycled).
