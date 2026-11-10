@@ -38,7 +38,7 @@ from . import filters
 from .common import SETTINGS, Settings, src
 from .index import ModuleInfo, ProjectIndex
 from .resolver import Cand, Ctx, Resolver, _dedup
-from .rules import LIBRARIES, LoadRule, build_rules, class_allowed, class_name, library_of
+from .rules import LIBRARIES, LoadRule, build_rules, class_allowed, class_name, library_of, library_of_import
 
 EXTRACTOR_VERSION = "2.0.2"
 
@@ -119,7 +119,7 @@ class ProjectExtractor:
         self.index = ProjectIndex(Path(root), settings)
         self.resolver = Resolver(self.index, settings)
         self.rules = build_rules(settings.non_model_class_suffixes, settings.sklearn_model_types)
-        self._fallback_rules = [r for r in self.rules if r.fallback_suffixes]
+        self._fallback_rules = [r for r in self.rules if r.fallback_regex]
         self._rules_by_lib: Dict[str, List[LoadRule]] = defaultdict(list)
         for r in self.rules:
             self._rules_by_lib[r.library].append(r)
@@ -178,8 +178,7 @@ class ProjectExtractor:
             chain = src(call.func)
             libs = self.imported_libraries(m)
             matches = [r for r in self._fallback_rules
-                       if any(chain.endswith("." + sfx) for sfx in r.fallback_suffixes)
-                       and set(r.fallback_requires) & libs]
+                       if r.matches_fallback(chain) and set(r.fallback_requires) & libs]
             if matches:
                 matches.sort(key=lambda r: FALLBACK_PRIORITY.index(r.library) if r.library in FALLBACK_PRIORITY else 99)
                 rule = matches[0]
@@ -215,11 +214,14 @@ class ProjectExtractor:
     # ── library usage (Step 2 "library imported and called") ────────────────
     def _count_usage(self, m: ModuleInfo, usage: Dict[str, Dict[str, int]]):
         for node in ast.walk(m.tree):
-            if isinstance(node, (ast.Import, ast.ImportFrom)):
-                names = [a.name for a in node.names] if isinstance(node, ast.Import) else \
-                    ([node.module] if node.module and not node.level else [])
-                for lib in {library_of(n) for n in names if n} - {None}:
-                    usage[lib]["imports"] += 1
+            if isinstance(node, ast.Import):                 # one statement per imported module
+                stmts = [f"import {a.name}" for a in node.names]
+            elif isinstance(node, ast.ImportFrom) and node.module and not node.level:
+                stmts = [f"from {node.module} import {a.name}" for a in node.names]
+            else:
+                continue
+            for lib in {library_of_import(st) for st in stmts} - {None}:   # IMPORT_REGEX
+                usage[lib]["imports"] += 1
         for call in m.calls:
             q = self.resolver.qualify(call.func, self.resolver.context_of(m, call))
             lib = library_of(q) if q else None
@@ -305,13 +307,17 @@ class ProjectExtractor:
         # model given as a plain string literal
         if isinstance(mc.arg, ast.Constant) and isinstance(mc.arg.value, str) and mc.extra is None:
             value = mc.arg.value
+            # OpenAI-compatible APIs: the model name is read from the call text with value_regex;
+            # the AST argument is kept when the regex cannot be applied (e.g. client named "llm")
+            regex_value = rule.literal_value(src(mc.call))
+            how = "literal string, value regex" if regex_value == value else "literal string"
             reason = filters.implausible_value_reason(value) or \
                 (filters.data_file_reason(value) if rule.artifact_check else None)
             if reason:
                 ex.excluded.append({**base_excl, "model": value, "reason": reason})
                 return
             self._add_literal(ex, literal_keys, mc, value, None, rel, line, call_text,
-                              f"Matched {rule.rule_id}: {value} (literal string)")
+                              f"Matched {rule.rule_id}: {value} ({how})")
             ex.trace.append({"file": rel, "line": line, "library": mc.library, "call_expression": call_text,
                              "status": "literal", "values": [value], "chains": []})
             return

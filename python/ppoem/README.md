@@ -51,3 +51,11 @@ print(result.trace)
 
 This package is therefore the analysis core behind the repository-level detection and the final
 machine-learning model dataset.
+
+## Rule reference
+
+[`dataset_paper/regex_catalog.md`](../../dataset_paper/regex_catalog.md) is a generated,
+human-readable snapshot of the import patterns and model-load patterns currently declared in
+`rules.py`. Each library section lists the import regex, the qualified-call regex, the model
+argument location, and any text-extraction fallback. Update `rules.py` first and regenerate the
+catalog when detection rules change; the catalog is documentation, not the runtime source.

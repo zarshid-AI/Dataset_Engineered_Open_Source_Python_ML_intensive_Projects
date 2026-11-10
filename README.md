@@ -3,6 +3,7 @@
 A tool that builds a curated dataset of open-source Python projects that load or use machine
 learning models, and that reports **which model** each project uses and **where** in the code.
 
+
 ```
 GitHub API ──► Step 1  github_scraper.py                     
              Engineered Python repositories
@@ -32,11 +33,10 @@ cp .env.example .env               # GitHub token(s), Ollama URL
 
 cd python
 python github_scraper.py                         # Step 1
-python github_python_repos_remain_filter.py      # Step 2  (resumable, --workers N)
-python llm_as_judge.py                           # Step 3  (needs Ollama)
+python github_python_repos_remain_filter.py      # Step 2
+python llm_as_judge.py                           # Step 3 
 python build_dataset_ppoem.py                    # Step 4
 
-python -m pytest ../tests -q                     # unit tests of the analysis engine
 ```
 
 Every step can be re-run: Step 2 continues where it stopped, Step 4 reuses the Step 2 analysis
@@ -81,6 +81,9 @@ Current contents:
   entries for the scanned repositories.
 - `scanned_github_systems.csv` — the GitHub repository inventory and metadata used for the
   dataset construction workflow.
+- `regex_catalog.md` — the generated catalog of import and model-load regular expressions
+  derived from `python/ppoem/rules.py`.
+- `README.md` — the publication-artifact guide, including the CSV columns and JSON structure.
 
 This folder is the main dataset for the project and should be treated as the authoritative
 publication artifact. The `results/` folder contains intermediate and execution outputs created
@@ -88,8 +91,6 @@ while running the pipeline, while `dataset_paper/` stores the final dataset bund
 study and downstream analysis.
 
 ---
-
-
 
 ---
 
@@ -154,85 +155,5 @@ declared in the code:
 | `os.environ["MODEL"]`, `cfg.model`, `json.load(f)["model"]`, `input()` | `variable_based` entry, `variable_source` = the expression |
 | `weights["detection_weights.pt"]` (container unknown) | model `detection_weights.pt` (the key names the file) |
 
----
 
-## Dataset format (`results/dataset_PPOEM.json`)
-
-```json
-{
-  "owner/repo": [
-    {
-      "variable_based": [
-        {
-          "library": "vllm",
-          "variable": "os.environ['VLLM_MODEL']",
-          "file": "serve.py",
-          "variable_line": 11,
-          "call_expression": "LLM(model=os.environ['VLLM_MODEL'])",
-          "notes": "Matched vllm.LLM: os.environ['VLLM_MODEL'] (variable reference; value depends on environment variable)",
-          "variable_source": "os.environ['VLLM_MODEL']"
-        }
-      ],
-      "literal_string": [
-        {
-          "library": "huggingface_hub",
-          "model": "OpenVINO/whisper-tiny-fp16-ov",
-          "model_variable": "model_id",
-          "model_file": "whisper_live/transcriber/transcriber_openvino.py",
-          "variable_file": "whisper_live/transcriber/transcriber_openvino.py",
-          "model_line": 11,
-          "variable_line": 21,
-          "call_expression": "hf_hub.snapshot_download(model_id, local_dir=model_path)",
-          "notes": "Matched huggingface_hub.download: OpenVINO/whisper-tiny-fp16-ov (default value of parameter, resolved from model_id)"
-        },
-        {
-          "library": "sklearn",
-          "model": "SVC",
-          "model_variable": "null",
-          "model_file": "src/squlearn/qrc/qrc_classifier.py",
-          "variable_file": "null",
-          "model_line": 129,
-          "variable_line": "null",
-          "call_expression": "SVC(**self.ml_model_options)",
-          "notes": "sklearn estimator instantiation: SVC"
-        }
-      ],
-      "owner": "...", "description": "...", "url": "...", "stars": 100, "...": "...",
-      "libraries_detected": "huggingface_hub; vllm; sklearn"
-    }
-  ]
-}
 ```
-
-| Field | Meaning |
-|---|---|
-| `model` | model name, model id, model file or estimator class |
-| `model_variable` | expression passed to the call (`"null"` when the model is written in the call) |
-| `model_file`, `model_line` | where the model name is written |
-| `variable_file`, `variable_line` | the model-loading call (`"null"` when the model is written in the call) |
-| `variable_source` | (`variable_based`) where resolution stopped: run-time value |
-
-Missing values are written as the string `"null"`, like the published dataset
-(`DATASET_NULL_AS_STRING = False` in `config.py` writes JSON `null`).
-
----
-
-## Configuration (`python/config.py`)
-
-| Setting | Default | Meaning |
-|---|---|---|
-| `SCRAPER_MIN_STARS / FORKS / COMMITS` | 100 / 10 / 100 | Step 1 thresholds |
-| `YEAR_FILTER_MIN_YEAR` | 2026 | last commit year |
-| `SCANNER_WORKERS` | 2 | repositories analysed in parallel (each in its own process) |
-| `SCANNER_RETRIES` | 1 | retries of a project whose process died |
-| `RESOLVER_MAX_PARSED_MODULES` | 600 | parsed files kept in memory; lower it on small machines |
-| `RESOLVER_PROJECT_TIME_BUDGET` | 1200 s | after that, remaining calls get a reduced budget |
-| `SKLEARN_MODEL_TYPES` | classifier, regressor, cluster, outlier_detector | scikit-learn families counted as models |
-| `HF_NON_MODEL_REPO_TYPES` | dataset, space | Hugging Face repo types that are not models |
-| `NON_MODEL_CLASS_SUFFIXES` | Tokenizer, Processor, Config, Scheduler, … | `from_pretrained` classes that are not models |
-| `DATASET_EXCLUDE_NOT_WELL_BUILT` | True | drop projects judged "no" in Step 3 |
-| `DATASET_NULL_AS_STRING` | True | `"null"` vs JSON `null` |
-
-Memory: the largest repositories in the study (e.g. vllm, 6,000 files) need about 700 MB per
-worker. With 8 GB of RAM, use 4–6 workers.
-

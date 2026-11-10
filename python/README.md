@@ -11,6 +11,9 @@ analysis internals and file-by-file module overview, see `ppoem/README.md`.
 | `llm_as_judge.py` | 3 | kept-projects CSV | same CSV (judge columns), `results/llm_response.json` |
 | `build_dataset_ppoem.py` | 4 | kept-projects CSV + per-project JSON | `results/dataset_PPOEM*.json / .csv` |
 
+The input and output schemas are documented in
+[`data/README.md`](../data/README.md) and [`results/README.md`](../results/README.md).
+
 ## Step 1: repository scraping
 
 `github_scraper.py` is the GitHub repository discovery stage. It reads values from
@@ -132,3 +135,6 @@ ex.trace              # resolution chain of every model-loading call
 
 Add a `LoadRule` to `ppoem/rules.py` (qualified-name pattern, where the model argument is,
 kind of model) and its import root to `LIBRARIES`. Then add a test in `tests/`.
+
+The generated regular-expression reference for these rules is
+[`dataset_paper/regex_catalog.md`](../dataset_paper/regex_catalog.md).

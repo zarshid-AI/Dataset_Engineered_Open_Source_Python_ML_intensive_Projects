@@ -19,11 +19,11 @@ env/
 .venv/
 .env/
 
-# ── Data files (large / generated) ────────────────────────
-data/*.csv
-data/*.json
-# Keep placeholder files
-!data/.gitkeep
+# # ── Data files (large / generated) ────────────────────────
+# data/*.csv
+# data/*.json
+# # Keep placeholder files
+# !data/.gitkeep
 
 # # ── Results (generated outputs) ───────────────────────────
 # results/*
