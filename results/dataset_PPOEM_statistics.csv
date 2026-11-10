@@ -1,0 +1,22 @@
+﻿measure,count
+projects in dataset,264
+projects with literal model names,142
+projects with variable-based references,207
+projects in both,85
+projects with literal model names only,57
+projects with variable-based references only,122
+literal_string entries,675
+variable_based entries,2214
+literal_string entries resolved from a variable,54
+distinct models,179
+distinct sklearn model classes,54
+distinct referred neural models models,133
+projects: included,264
+literal_string entries: sklearn,386
+literal_string entries: openai,219
+literal_string entries: vllm,42
+literal_string entries: huggingface_hub,31
+literal_string entries: diffusers,16
+literal_string entries: torch,10
+literal_string entries: groq,4
+literal_string entries: ollama,1

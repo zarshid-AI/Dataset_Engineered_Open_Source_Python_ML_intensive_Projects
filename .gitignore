@@ -25,9 +25,9 @@ data/*.json
 # Keep placeholder files
 !data/.gitkeep
 
-# ── Results (generated outputs) ───────────────────────────
-results/*
-!results/README.md
+# # ── Results (generated outputs) ───────────────────────────
+# results/*
+# !results/README.md
 
 # ── Logs ───────────────────────────────────────────────────
 *.log

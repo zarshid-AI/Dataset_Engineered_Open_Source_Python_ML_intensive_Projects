@@ -1,0 +1,2382 @@
+[
+  {
+    "name": "squlearn",
+    "url": "https://github.com/sQUlearn/squlearn",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (sQUlearn) with a clear public API, extensive documentation, examples, and a structured source layout (src/, docs/, pyproject.toml). It follows standard packaging practices and targets integration with scikit‑learn, indicating a serious, well‑engineered library rather than a homework or personal script."
+  },
+  {
+    "name": "dlio_benchmark",
+    "url": "https://github.com/argonne-lcf/dlio_benchmark",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "DLIO is a complete, runnable benchmark CLI tool with extensive documentation, a structured codebase, CI integration, Docker support, and modular components, indicating solid software engineering practices."
+  },
+  {
+    "name": "aiops-modules",
+    "url": "https://github.com/awslabs/aiops-modules",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "deployment_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive collection of reusable IaC modules, manifests, and deployment guides for AWS AIOps scenarios, with clear documentation and organized structure, indicating a serious, production‑grade deployment tooling project."
+  },
+  {
+    "name": "kikuchipy",
+    "url": "https://github.com/pyxem/kikuchipy",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (kikuchipy) with a clear scientific purpose, a documented public API, and a full source layout (src/, docs/, tests, CI). It includes extensive documentation, CI pipelines, benchmarks, and packaging metadata, indicating solid software engineering practices."
+  },
+  {
+    "name": "openrag",
+    "url": "https://github.com/linagora/openrag",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository provides a modular, extensible RAG platform with APIs, UI, Docker/Kubernetes deployment, and documentation, fitting the definition of a framework. It includes a structured codebase, tests, and deployment scripts, indicating solid engineering practices."
+  },
+  {
+    "name": "S2AND",
+    "url": "https://github.com/allenai/S2AND",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable codebase, dataset handling, model training, evaluation scripts, and a Rust extension, all organized with proper packaging, tests, CI, and documentation, indicating a serious, well‑engineered project rather than a simple script or personal backup."
+  },
+  {
+    "name": "LabGym",
+    "url": "https://github.com/umyelab/LabGym",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "LabGym provides a reusable Python package with a clear purpose (behavior quantification), extensive documentation, examples, and a structured codebase including multiple modules and a CLI entry point, indicating solid software engineering practices."
+  },
+  {
+    "name": "safety-tooling",
+    "url": "https://github.com/safety-research/safety-tooling",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package with a clear purpose (standardized LLM API wrappers), includes a pyproject.toml, extensive module hierarchy, documentation, and a test suite, indicating solid software engineering practices."
+  },
+  {
+    "name": "swarmauri-sdk",
+    "url": "https://github.com/swarmauri/swarmauri-sdk",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python SDK with a clear public API, extensive documentation, and a well‑structured codebase (multiple packages, pyproject.toml, docs, and examples). It follows standard software engineering practices, indicating a serious, well‑built library."
+  },
+  {
+    "name": "TalkHeal",
+    "url": "https://github.com/eccentriccoder01/TalkHeal",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository contains a full Streamlit web application with organized modules (auth, components, core), extensive documentation, and configuration files, indicating a complete runnable product rather than a single script or personal backup."
+  },
+  {
+    "name": "pycon",
+    "url": "https://github.com/pythonitalia/pycon",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository contains a full Django backend, a Next.js frontend, Docker configurations, extensive test suites, and clear README setup instructions, indicating a complete, runnable web application built with solid engineering practices."
+  },
+  {
+    "name": "TagLab",
+    "url": "https://github.com/cnr-isti-vclab/TagLab",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository provides a full-featured image segmentation desktop application with extensive documentation, install scripts, organized code (models, UI, utilities) and clear purpose, indicating solid software engineering practices."
+  },
+  {
+    "name": "anemoi-core",
+    "url": "https://github.com/ecmwf/anemoi-core",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository is a well-structured mono‑repo providing reusable packages (anemoi‑training, anemoi‑models, anemoi‑graphs) with a clear purpose, documentation, pyproject.toml and organized source layout, indicating solid software engineering practices."
+  },
+  {
+    "name": "robotoff",
+    "url": "https://github.com/openfoodfacts/robotoff",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "Robotoff is a full-fledged service with API endpoints, Docker configurations, CI pipelines, extensive documentation, and a structured codebase, indicating a complete, runnable application. The presence of tests, CI badges, and clear project organization demonstrates solid engineering practices."
+  },
+  {
+    "name": "DeepLIIF",
+    "url": "https://github.com/nadeemlab/DeepLIIF",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive codebase for training, evaluating, and deploying the DeepLIIF model, including organized modules, CLI, Dockerfile, environment specifications, and documentation, indicating a serious, well‑structured ML training tool."
+  },
+  {
+    "name": "OpenSeek",
+    "url": "https://github.com/FlagAI-Open/OpenSeek",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository contains extensive training configurations, scripts, benchmarks, evaluation pipelines, and documentation, indicating a structured, purpose‑driven ML training framework rather than a single script or personal notes."
+  },
+  {
+    "name": "biosteam",
+    "url": "https://github.com/BioSTEAMDevelopmentGroup/biosteam",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, documented Python package with a clear public API for biorefinery simulation, organized into many modules and subpackages, indicating a serious, well‑engineered library rather than a simple script or personal backup."
+  },
+  {
+    "name": "starfish",
+    "url": "https://github.com/spacetx/starfish",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package with a public API for image‑based spatial transcriptomics, includes extensive documentation, CI pipelines, Docker support, and a structured codebase, indicating a serious, well‑engineered library."
+  },
+  {
+    "name": "agents-for-openbb",
+    "url": "https://github.com/OpenBB-finance/agents-for-openbb",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository contains a well‑structured collection of runnable example agents with documentation, tests, and a proper pyproject.toml, indicating solid engineering practices. It serves as a set of example applications rather than a reusable library, framework, or homework assignment."
+  },
+  {
+    "name": "scirpy",
+    "url": "https://github.com/scverse/scirpy",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "Scirpy provides a reusable Python API for immune receptor analysis, includes a pyproject.toml, a src/ package, extensive documentation, tutorials, and a full test suite with CI configuration, indicating solid engineering practices. The repository is well‑structured and clearly intended for public consumption as a library."
+  },
+  {
+    "name": "gurobi-machinelearning",
+    "url": "https://github.com/Gurobi/gurobi-machinelearning",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (gurobi-machinelearning) with a clear public API, extensive documentation, CI pipelines, packaging metadata, and a structured codebase (src/, tests/, docs/). It follows standard software engineering practices, indicating a serious, well‑built library."
+  },
+  {
+    "name": "unified-cache-management",
+    "url": "https://github.com/ModelEngine-Group/unified-cache-management",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable KV‑cache management package with extensive documentation, examples, tests, and proper packaging files (pyproject.toml, setup.py), indicating a well‑structured, production‑grade library rather than a single script or homework project."
+  },
+  {
+    "name": "Annif",
+    "url": "https://github.com/NatLibFi/Annif",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "Annif is a full-featured subject indexing system with a CLI, REST API, and web UI, making it a runnable software product. The repository includes extensive documentation, tests, CI/CD pipelines, Docker support, and a well‑structured codebase, indicating a serious, well‑engineered project."
+  },
+  {
+    "name": "zoology",
+    "url": "https://github.com/HazyResearch/zoology",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository contains a well‑structured codebase with a clear purpose (providing synthetic tasks and training harnesses for language model research), extensive documentation, a setup script, and organized modules for models, experiments, and utilities, indicating solid software engineering practices."
+  },
+  {
+    "name": "HyperCoast",
+    "url": "https://github.com/opengeos/HyperCoast",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository contains a well‑structured Python package with a clear purpose (hyperspectral data analysis), comprehensive documentation, examples, a pyproject.toml, and a QGIS plugin, indicating solid software engineering practices rather than a single script or personal notes."
+  },
+  {
+    "name": "spinalcordtoolbox",
+    "url": "https://github.com/spinalcordtoolbox/spinalcordtoolbox",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, documented suite of command‑line tools for spinal cord MRI analysis, includes CI, packaging, extensive documentation, and a structured codebase, indicating a serious, well‑engineered software product rather than a simple script or personal backup."
+  },
+  {
+    "name": "ESMValTool",
+    "url": "https://github.com/ESMValGroup/ESMValTool",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "ESMValTool is a fully documented, CI‑tested climate diagnostics suite with a clear purpose, extensive codebase, and runnable CLI interface, meeting software engineering best practices. It is not a simple script or personal backup, thus qualifies as a well‑built application."
+  },
+  {
+    "name": "nequip",
+    "url": "https://github.com/mir-group/nequip",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "NequIP provides a comprehensive, documented API, configuration system, training pipeline, and integrations, acting as an opinionated scaffold for building equivariant interatomic potentials. The repository includes proper packaging, tests, CI, and extensive documentation, indicating a serious, well‑engineered software project."
+  },
+  {
+    "name": "FlagGems",
+    "url": "https://github.com/flagos-ai/FlagGems",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable operator library (FlagGems) with extensive documentation, examples, benchmarks, and a structured codebase including CMake build files and tests, indicating a serious, well‑engineered project."
+  },
+  {
+    "name": "cosmos-reason1",
+    "url": "https://github.com/nvidia-cosmos/cosmos-reason1",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (cosmos_reason1_utils) with a clear API, tests, and documentation, plus well‑structured examples and scripts. It follows standard project layout (pyproject.toml, src/, tests/) indicating solid engineering practices."
+  },
+  {
+    "name": "schnetpack",
+    "url": "https://github.com/atomistic-machine-learning/schnetpack",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "SchNetPack provides a reusable Python package with a public API for atomistic ML, includes extensive documentation, a structured src/ layout, configuration files, and CLI tools, indicating solid software engineering practices."
+  },
+  {
+    "name": "factorio-learning-environment",
+    "url": "https://github.com/JackHopkins/factorio-learning-environment",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive SDK, CLI tools, and evaluation environment for building LLM agents in Factorio, with clear documentation and a structured codebase, fitting the definition of an opinionated framework. The presence of installation guides, multiple modules, and organized prompts indicates solid software engineering practices."
+  },
+  {
+    "name": "compression",
+    "url": "https://github.com/tensorflow/compression",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable TensorFlow Compression library with extensive documentation, a clear public API, and a structured codebase (multiple modules, examples, and requirements). It is a mature, widely‑used open‑source project rather than a single script or personal backup."
+  },
+  {
+    "name": "mindnlp",
+    "url": "https://github.com/mindspore-lab/mindnlp",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "MindNLP provides a reusable API for running HuggingFace models on MindSpore, includes extensive documentation, CI pipelines, and a structured codebase, fitting the definition of a well‑built library."
+  },
+  {
+    "name": "gaia",
+    "url": "https://github.com/amd/gaia",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive AI agent framework with extensive documentation, CI badges, packaging metadata, and a structured codebase, indicating a serious, well‑engineered project rather than a simple script or personal backup."
+  },
+  {
+    "name": "mobile-vision",
+    "url": "https://github.com/facebookresearch/mobile-vision",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable collection of mobile computer vision models, utilities, and extensive tests, with clear documentation and examples, fitting the definition of a library. Its organized structure, test suite, and documentation indicate solid software engineering practices."
+  },
+  {
+    "name": "moabb",
+    "url": "https://github.com/NeuroTechX/moabb",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "MOABB provides a reusable Python package with a clear API for benchmarking BCI algorithms, includes extensive documentation, examples, CI pipelines, and a structured codebase, indicating a serious, well‑engineered library."
+  },
+  {
+    "name": "ToolUniverse",
+    "url": "https://github.com/mims-harvard/ToolUniverse",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python SDK (published on PyPI) with extensive documentation, a Dockerfile, and structured guides, indicating a clear, public API and solid engineering practices. It is not a single script or personal notes, fitting the definition of a library and showing signs of a well‑maintained project."
+  },
+  {
+    "name": "qiskit-machine-learning",
+    "url": "https://github.com/qiskit-community/qiskit-machine-learning",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (Qiskit Machine Learning) with a clear public API, extensive documentation, CI configuration, and a structured code layout, indicating a serious, well‑engineered library rather than a personal script or homework."
+  },
+  {
+    "name": "superpoint_transformer",
+    "url": "https://github.com/drprojects/superpoint_transformer",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive codebase for training Superpoint Transformer models, with extensive documentation, organized configuration files, and a structured project layout typical of ML training pipelines, indicating a serious, well‑engineered project."
+  },
+  {
+    "name": "agentstack",
+    "url": "https://github.com/i-am-bee/agentstack",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository contains a well‑structured multi‑package codebase, extensive documentation, Dockerfiles, CLI tooling, and clear purpose of providing an opinionated platform for turning AI agents into services, indicating a serious, production‑grade framework."
+  },
+  {
+    "name": "MSST-WebUI",
+    "url": "https://github.com/SUC-DriverOld/MSST-WebUI",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository provides a complete, runnable web UI for music source separation, with organized modules, documentation, and configuration files, indicating a purposeful and structured application rather than a simple script or personal backup."
+  },
+  {
+    "name": "keras-hub",
+    "url": "https://github.com/keras-team/keras-hub",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "KerasHub is a reusable, publicly documented library offering a comprehensive API for pretrained models, with a well‑structured codebase, extensive tests, CI configuration, and contribution guidelines, indicating solid software engineering practices."
+  },
+  {
+    "name": "SLAM-LLM",
+    "url": "https://github.com/X-LANCE/SLAM-LLM",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, documented toolkit with organized training scripts, configs, and examples for multimodal LLMs, indicating a purposeful and well‑structured training pipeline rather than a simple assignment or personal backup."
+  },
+  {
+    "name": "datamapplot",
+    "url": "https://github.com/TutteInstitute/datamapplot",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (datamapplot) with a clear public API, extensive documentation, CI pipelines, and structured source code, indicating a serious, well‑engineered library rather than a personal script or assignment."
+  },
+  {
+    "name": "cache-dit",
+    "url": "https://github.com/vipshop/cache-dit",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (Cache‑DiT) with extensive documentation, PyPI badge, and a structured codebase for inference acceleration, indicating a well‑maintained library rather than a single script or personal backup."
+  },
+  {
+    "name": "neural-structured-learning",
+    "url": "https://github.com/tensorflow/neural-structured-learning",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable TensorFlow library (Neural Structured Learning) with a clear public API, extensive documentation, examples, and unit tests, indicating solid engineering practices. Its organized package structure, versioning, and installation instructions further demonstrate it is a well‑maintained, production‑grade library."
+  },
+  {
+    "name": "starVLA",
+    "url": "https://github.com/starVLA/starVLA",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, well‑documented codebase for training Vision‑Language‑Action models, with organized directories for examples, training scripts, and deployment utilities, indicating a serious, production‑oriented project rather than a personal or homework effort."
+  },
+  {
+    "name": "youtu-graphrag",
+    "url": "https://github.com/TencentCloudADP/youtu-graphrag",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository provides a structured, multi‑component system (backend, frontend, models, retriever, config, Dockerfile) aimed at enabling Graph Retrieval‑Augmented Generation, matching a framework that users can extend. It includes clear documentation, organized directories, and runnable scripts, indicating a serious, well‑built project."
+  },
+  {
+    "name": "hail",
+    "url": "https://github.com/hail-is/hail",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "Hail provides a public Python API for genomic data analysis, includes setup scripts, extensive documentation, and a large, modular codebase with tests and CI, indicating a serious, well‑engineered library rather than a simple script or personal project."
+  },
+  {
+    "name": "weave",
+    "url": "https://github.com/wandb/weave",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "Weave provides a reusable toolkit (Python package and Node SDK) with a clear public API for tracing and evaluating LLM workflows, and the repo includes extensive documentation, tests, CI configuration, and a structured codebase, indicating a serious, well‑engineered project."
+  },
+  {
+    "name": "CEBRA",
+    "url": "https://github.com/AdaptiveMotorControlLab/CEBRA",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (pyproject.toml, public API, extensive modules, and documentation) for learning consistent embeddings, fitting the definition of a library. It has a well‑structured codebase, documentation, CI configuration, and packaging files, indicating solid software engineering practices."
+  },
+  {
+    "name": "gget",
+    "url": "https://github.com/pachterlab/gget",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package with a clear public API and extensive documentation, plus a CLI wrapper; it follows good engineering practices with a structured codebase, tests, CI, and packaging files, indicating a serious, well‑built project."
+  },
+  {
+    "name": "OpenOCR",
+    "url": "https://github.com/Topdu/OpenOCR",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive OCR toolkit with extensive training configurations, documentation, and a pip-installable package, indicating a structured, purpose‑driven project rather than a simple script or personal backup."
+  },
+  {
+    "name": "truss",
+    "url": "https://github.com/basetenlabs/truss",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "deployment_tool",
+    "confidence": "high",
+    "reasoning": "Truss is a comprehensive CLI and supporting libraries for packaging, deploying, and serving ML models, fitting the deployment_tool category. The repository includes extensive documentation, a structured multi-language codebase, tests, CI pipelines, and clear engineering practices, indicating a serious, well-built project."
+  },
+  {
+    "name": "AWorld",
+    "url": "https://github.com/inclusionAI/AWorld",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository contains a full-featured CLI, web UI, Dockerfile, and extensive documentation, indicating a complete runnable software product. The codebase is well-structured with multiple packages, clear entry points, and supporting files, reflecting solid engineering practices."
+  },
+  {
+    "name": "AgentEvolver",
+    "url": "https://github.com/modelscope/AgentEvolver",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, documented system for self‑evolving agent training with a clear architecture, multiple modules, configs, and examples, indicating a serious, well‑structured software project rather than a simple script or personal backup."
+  },
+  {
+    "name": "nncf",
+    "url": "https://github.com/openvinotoolkit/nncf",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "NNCF provides a public API, extensive documentation, and a structured codebase (src/, docs/, examples, CI configs), fitting the definition of a reusable library. The repository follows standard software engineering practices, indicating a serious, well‑built project."
+  },
+  {
+    "name": "AICGSecEval",
+    "url": "https://github.com/Tencent/AICGSecEval",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository provides a complete, runnable benchmark suite with clear documentation, organized code, data, and CLI entry points for code generation, retrieval, and security evaluation, indicating a well‑structured application rather than a simple script or personal backup."
+  },
+  {
+    "name": "production-stack",
+    "url": "https://github.com/vllm-project/production-stack",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "deployment_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, documented Helm chart and associated scripts for deploying vLLM in production, with clear structure, docs, examples, and CI-like templates, indicating a serious, well‑engineered deployment tool."
+  },
+  {
+    "name": "IMS-Toucan",
+    "url": "https://github.com/DigitalPhonetics/IMS-Toucan",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository contains a comprehensive, well‑structured codebase with training scripts, model definitions, data pipelines, and inference utilities for a multilingual TTS system, along with documentation. This indicates a serious, purpose‑driven project rather than a simple script or personal backup."
+  },
+  {
+    "name": "EAGLE",
+    "url": "https://github.com/SafeAILab/EAGLE",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository contains a structured codebase with training scripts, model definitions, evaluation pipelines, a README, setup.py, and requirements, indicating a serious research-oriented tool for training and evaluating LLMs rather than a simple script or personal backup."
+  },
+  {
+    "name": "openlit",
+    "url": "https://github.com/openlit/openlit",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "OpenLIT provides a complete AI observability platform with SDKs, dashboards, and deployment scripts, documented with extensive README and docs, and organized with multiple directories and configuration files, indicating a mature, runnable software product."
+  },
+  {
+    "name": "inference",
+    "url": "https://github.com/roboflow/inference",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository provides a full inference server, CLI, Docker images, and extensive documentation, indicating a complete runnable product rather than a simple library or script. Its organized structure, multiple Dockerfiles, examples, and docs demonstrate solid software engineering practices."
+  },
+  {
+    "name": "fairlearn",
+    "url": "https://github.com/fairlearn/fairlearn",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "Fairlearn provides a reusable Python package with a public API for fairness metrics and mitigation, includes extensive documentation, examples, tests, CI configuration, and follows standard packaging conventions, indicating a serious, well‑engineered library."
+  },
+  {
+    "name": "fvcore",
+    "url": "https://github.com/facebookresearch/fvcore",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "fvcore provides a reusable, well-documented API with a clear purpose (common utilities for FAIR computer vision projects) and includes a structured codebase, comprehensive tests, packaging scripts, and documentation, indicating solid software engineering practices."
+  },
+  {
+    "name": "chemprop",
+    "url": "https://github.com/chemprop/chemprop",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "Chemprop provides a reusable Python package with a public API for molecular property prediction, extensive documentation, CLI tools, and CI pipelines, indicating a well‑structured, production‑grade project rather than a simple script or personal backup."
+  },
+  {
+    "name": "ComfyUI-KJNodes",
+    "url": "https://github.com/kijai/ComfyUI-KJNodes",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "medium",
+    "reasoning": "The repository provides a reusable collection of custom ComfyUI nodes packaged with a pyproject.toml, README, and organized source directories, indicating a library intent. While documentation and structure are present, the lack of tests or CI reduces confidence in full software‑engineering rigor."
+  },
+  {
+    "name": "kokoro-onnx",
+    "url": "https://github.com/thewh1teagle/kokoro-onnx",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (kokoro-onnx) with a pyproject.toml, a src directory, configuration files, and extensive documentation and examples, indicating a clear public API. The structure follows standard packaging conventions, showing solid engineering practices despite the absence of a test suite."
+  },
+  {
+    "name": "evalscope",
+    "url": "https://github.com/modelscope/evalscope",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "EvalScope provides a comprehensive, extensible evaluation scaffold for LLMs/VLMs with extensive documentation, structured benchmarks, and integration points, indicating a well‑engineered framework rather than a simple script or personal backup."
+  },
+  {
+    "name": "physicsnemo",
+    "url": "https://github.com/NVIDIA/physicsnemo",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "PhysicsNeMo is a comprehensive, documented deep‑learning framework with a structured codebase, CI, Docker support, and extensive API docs, indicating serious engineering effort rather than a simple script or personal backup."
+  },
+  {
+    "name": "geoai",
+    "url": "https://github.com/opengeos/geoai",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package with extensive documentation, examples, and a Dockerfile, targeting AI workflows on geospatial data, indicating a well‑structured library rather than a single script or personal backup."
+  },
+  {
+    "name": "pygraphistry",
+    "url": "https://github.com/graphistry/pygraphistry",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (graphistry) with a public API, extensive documentation, CI pipelines, tests, and packaging files, indicating a mature library. Its structure includes source code, demos, CI scripts, and versioning, reflecting solid software engineering practices."
+  },
+  {
+    "name": "DDSP-SVC",
+    "url": "https://github.com/yxlllc/DDSP-SVC",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository contains a full codebase for training, inference, and GUI-based usage of a singing voice conversion model, with organized modules, configs, and documentation, indicating a serious, purpose‑driven project rather than a simple script or personal backup."
+  },
+  {
+    "name": "torchrec",
+    "url": "https://github.com/meta-pytorch/torchrec",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "TorchRec is a reusable recommendation system library with a clear public API, extensive documentation, C++/Python code, tests, benchmarks, and build scripts, indicating solid engineering practices. The repository is well‑structured with src, tests, docs, and CI‑related files, confirming it is a serious, production‑grade project."
+  },
+  {
+    "name": "LyCORIS",
+    "url": "https://github.com/KohakuBlueleaf/LyCORIS",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (lycoris) with a clear API, extensive documentation, examples, and a test suite, organized with a proper setup.py and modular code. This indicates a serious, well‑structured software library rather than a single script or personal backup."
+  },
+  {
+    "name": "RAGEN",
+    "url": "https://github.com/mll-lab-nu/RAGEN",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a full codebase for training LLM reasoning agents with RL, including training scripts, configs, a package layout, tests, and documentation, indicating a serious, well‑structured project rather than a simple script or personal backup."
+  },
+  {
+    "name": "ManiSkill",
+    "url": "https://github.com/haosulab/ManiSkill",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "ManiSkill provides a comprehensive, documented API and scaffolding for building robot simulation and training tasks, fitting the definition of a framework. The repository includes structured code, documentation, packaging, and CI tooling, indicating solid software engineering practices."
+  },
+  {
+    "name": "OSWorld",
+    "url": "https://github.com/xlang-ai/OSWorld",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (desktop-env) with extensive modules, documentation, and setup guidelines for simulating OS environments, indicating a clear, public API rather than a single application. The codebase is well‑structured, includes multiple components (providers, evaluators, server) and proper documentation, reflecting solid software engineering practices."
+  },
+  {
+    "name": "aimet",
+    "url": "https://github.com/quic/aimet",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "AIMET is a comprehensive quantization toolkit with a clear public API, extensive documentation, and a well‑structured codebase (multiple modules, configs, examples, and CI scripts). It is intended to be imported and used by other projects, fitting the definition of a reusable library, and exhibits solid software engineering practices."
+  },
+  {
+    "name": "vllm-omni",
+    "url": "https://github.com/vllm-project/vllm-omni",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, documented system for omni-modality model serving with APIs, benchmarks, Docker images, and extensive design docs, indicating a mature, opinionated scaffold rather than a simple library or single script. The presence of CI configs, structured code, and clear documentation shows solid engineering practices."
+  },
+  {
+    "name": "numpyro",
+    "url": "https://github.com/pyro-ppl/numpyro",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "NumPyro provides a public API for probabilistic programming, includes extensive documentation, CI, tests, and a structured codebase, fitting the definition of a reusable library and demonstrating solid software engineering practices."
+  },
+  {
+    "name": "ao",
+    "url": "https://github.com/pytorch/ao",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "TorchAO provides a public API for model optimization (float8, quantization, sparsity) with extensive documentation, benchmarks, and a structured codebase, indicating a serious, well‑engineered library rather than a simple script or personal backup."
+  },
+  {
+    "name": "llm-compressor",
+    "url": "https://github.com/vllm-project/llm-compressor",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (llmcompressor) with extensive documentation, examples, and a clear public API for model quantization, indicating a well‑structured, purpose‑driven library rather than a single script or personal backup."
+  },
+  {
+    "name": "fastembed",
+    "url": "https://github.com/qdrant/fastembed",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "FastEmbed provides a reusable Python API for generating embeddings, includes a pyproject.toml, comprehensive documentation, a well‑structured codebase with separate modules, and a full test suite, indicating solid engineering practices. It is clearly intended to be imported by other projects rather than being a standalone application."
+  },
+  {
+    "name": "SimpleTuner",
+    "url": "https://github.com/bghira/SimpleTuner",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository contains extensive documentation, configuration examples, Docker support, and a clear focus on training diffusion models, indicating a purpose-built ML training pipeline rather than a simple script or personal backup. The structure and tooling suggest it follows software engineering practices, qualifying it as a well‑built training tool."
+  },
+  {
+    "name": "OneTrainer",
+    "url": "https://github.com/Nerogar/OneTrainer",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, documented application for training diffusion models with a well‑structured codebase, multiple modules, CLI and GUI components, and installation scripts, indicating a serious, production‑grade training tool."
+  },
+  {
+    "name": "ComfyUI-nunchaku",
+    "url": "https://github.com/nunchaku-ai/ComfyUI-nunchaku",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable ComfyUI plugin with a clear purpose, extensive documentation, organized package structure, and example workflows, indicating solid engineering practices rather than a single script or personal backup."
+  },
+  {
+    "name": "ROLL",
+    "url": "https://github.com/alibaba/ROLL",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, documented set of RL pipelines, configuration guides, and integration with various backends, acting as an opinionated scaffold for building LLM reinforcement learning workflows. It includes extensive documentation, Docker support, and structured resources, indicating a serious, well‑engineered project."
+  },
+  {
+    "name": "GLiNER",
+    "url": "https://github.com/urchade/GLiNER",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable NER library with a clear public API, packaging via pyproject.toml, extensive documentation, examples, and a structured codebase with tests, indicating a serious, well‑engineered project."
+  },
+  {
+    "name": "tinker-cookbook",
+    "url": "https://github.com/thinking-machines-lab/tinker-cookbook",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository is a packaged Python library (has pyproject.toml) offering reusable abstractions and recipes for fine‑tuning LLMs, with extensive documentation, organized modules, and example scripts, indicating solid engineering practices."
+  },
+  {
+    "name": "leptonai",
+    "url": "https://github.com/leptonai/leptonai",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "LeptonAI provides a reusable, opinionated set of abstractions (Photon, client, CLI, API) for building AI services, fitting the definition of a framework. The repository has a clear purpose, extensive documentation, a well‑structured codebase with tests and multiple sub‑packages, indicating solid software engineering practices."
+  },
+  {
+    "name": "Pointcept",
+    "url": "https://github.com/Pointcept/Pointcept",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository contains a comprehensive, well‑structured codebase with many configuration files, model definitions, and training scripts for point cloud perception, along with documentation and CI badges, indicating a serious, professionally maintained training framework rather than a simple homework or personal backup."
+  },
+  {
+    "name": "habitat-lab",
+    "url": "https://github.com/facebookresearch/habitat-lab",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "Habitat-Lab provides a reusable, well-documented Python package with a clear public API, extensive documentation, CI, and structured code, fitting the definition of a library. Its comprehensive setup, tests, and community support indicate a serious, well-built software project."
+  },
+  {
+    "name": "nv-ingest",
+    "url": "https://github.com/NVIDIA/nv-ingest",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable extraction library with a clear public API, extensive test suite, documentation, and build artifacts (Dockerfile, CI configs), indicating solid engineering practices. It is not a standalone application but a component meant to be integrated, fitting the 'library' category."
+  },
+  {
+    "name": "DataFlow",
+    "url": "https://github.com/OpenDCAI/DataFlow",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository provides a structured, extensible codebase with a CLI, operators, pipelines, and extensive documentation, targeting users to build their own data workflows, which fits a framework. It includes a Dockerfile, README, examples, and a published PyPI package, indicating solid engineering practices."
+  },
+  {
+    "name": "datatrove",
+    "url": "https://github.com/huggingface/datatrove",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "DataTrove provides a reusable Python package with a clear API for large‑scale text processing, includes a structured src/ layout, extensive documentation, examples, and a pyproject.toml, indicating solid engineering practices."
+  },
+  {
+    "name": "ComfyUI_LayerStyle",
+    "url": "https://github.com/chflame163/ComfyUI_LayerStyle",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a collection of reusable ComfyUI nodes (e.g., custom image processing utilities) with an __init__.py, example images, and configuration files, indicating a purposeful, structured code package rather than a single script or personal backup. The presence of documentation files and organized assets suggests solid engineering practices."
+  },
+  {
+    "name": "nunif",
+    "url": "https://github.com/nagadomi/nunif",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository bundles several runnable tools (waifu2x, iw3 desktop/player, cliqa, stilizer) with installation docs, Docker support, and structured sub‑projects, indicating a cohesive application suite rather than a simple library or homework. The presence of multiple README files, build scripts, and clear organization shows solid engineering practices."
+  },
+  {
+    "name": "Deep-Reinforcement-Learning-Hands-On",
+    "url": "https://github.com/PacktPublishing/Deep-Reinforcement-Learning-Hands-On",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository contains a well‑organized collection of reinforcement‑learning training scripts, libraries, and tests that accompany a published book, showing clear purpose and documentation. It follows a consistent project layout across chapters and includes supporting utilities, indicating solid engineering practices rather than a single homework or personal backup."
+  },
+  {
+    "name": "trulens",
+    "url": "https://github.com/truera/trulens",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "TruLens provides a public API for instrumenting and evaluating LLM applications, packaged for import via pip and documented extensively. The repository includes a structured codebase, tests, CI pipelines, and thorough documentation, indicating solid software engineering practices."
+  },
+  {
+    "name": "mteb",
+    "url": "https://github.com/embeddings-benchmark/mteb",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "MTEB provides a reusable Python package with a public API for evaluating embeddings, extensive documentation, CLI, and a structured codebase, indicating a serious, well‑engineered library rather than a simple script or personal backup."
+  },
+  {
+    "name": "deepdoctection",
+    "url": "https://github.com/deepdoctection/deepdoctection",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package with a clear public API for document understanding, includes extensive documentation, a structured code layout (src/, tests/, docs/, packaging files), and supports installation via PyPI. It follows standard software engineering practices, indicating a serious, well‑built library."
+  },
+  {
+    "name": "ComfyUI-GGUF",
+    "url": "https://github.com/city96/ComfyUI-GGUF",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "medium",
+    "reasoning": "The repository provides a reusable set of Python modules (custom nodes, loaders, ops) for ComfyUI, includes a README, pyproject.toml, and a modest code structure, indicating a purposeful library rather than a single script or personal backup. While it lacks extensive tests or CI pipelines, the documentation and organized layout suggest it is a serious, functional project."
+  },
+  {
+    "name": "optimum",
+    "url": "https://github.com/huggingface/optimum",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "Optimum provides a reusable Python API for model optimization, with a clear purpose, extensive documentation, a structured codebase, tests, and packaging files, indicating solid engineering practices."
+  },
+  {
+    "name": "PPTAgent",
+    "url": "https://github.com/icip-cas/PPTAgent",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository provides a full AI‑powered PPT generation tool with a clear purpose, extensive documentation, a structured codebase, tests, Docker support and a pyproject.toml, indicating a production‑ready application rather than a simple script or homework. The presence of CI‑style organization and multiple modules shows solid engineering practices."
+  },
+  {
+    "name": "rl",
+    "url": "https://github.com/pytorch/rl",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "TorchRL is a reusable RL code package with a public API, extensive documentation, tests, CI, and a structured repository, fitting the definition of a library. The presence of CI workflows, benchmarks, examples, and thorough docs indicates a serious, well‑engineered project."
+  },
+  {
+    "name": "huggingface_hub",
+    "url": "https://github.com/huggingface/huggingface_hub",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python client with a public API, extensive documentation, CI configuration, tests, and packaging files, fitting the definition of a library. Its structure, documentation, and active maintenance indicate a serious, well‑built software project."
+  },
+  {
+    "name": "optillm",
+    "url": "https://github.com/algorithmicsuperintelligence/optillm",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository provides a runnable inference proxy server with extensive documentation, Docker support, and a modular codebase, indicating a complete, production-ready service rather than a simple script or personal backup."
+  },
+  {
+    "name": "morphik-core",
+    "url": "https://github.com/morphik-org/morphik-core",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository contains a well‑structured codebase with reusable components (embeddings, vector stores, parsers, services) and a clear public API, along with tests, documentation, and Docker support, indicating a serious, maintainable library rather than a single script or personal backup."
+  },
+  {
+    "name": "docetl",
+    "url": "https://github.com/ucbepic/docetl",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, reusable Python package with a clear API for building document processing pipelines, along with a UI and CLI, indicating an opinionated scaffold rather than a single application. It includes extensive documentation, a structured codebase, and build scripts, meeting criteria for a well‑built software project."
+  },
+  {
+    "name": "open-instruct",
+    "url": "https://github.com/allenai/open-instruct",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides extensive training scripts, configuration files, Docker support, CI workflows, and documentation for instruction-tuning language models, indicating a well-structured, purpose‑driven training tool rather than a simple script or personal backup."
+  },
+  {
+    "name": "slime",
+    "url": "https://github.com/THUDM/slime",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, documented LLM post‑training framework with structured code, examples, Docker support, and extensive documentation, indicating a serious, well‑engineered project rather than a single script or personal backup."
+  },
+  {
+    "name": "nano-graphrag",
+    "url": "https://github.com/gusye1234/nano-graphrag",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (nano-graphrag) with a clear API, setup.py, documentation, examples, and a comprehensive test suite, indicating solid engineering practices. Its structure (src package, tests, docs) and packaging for PyPI confirm it is a well‑built library."
+  },
+  {
+    "name": "ReAgent",
+    "url": "https://github.com/facebookresearch/ReAgent",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "ReAgent provides a comprehensive, opinionated platform with a public API, extensive documentation, CI/CD, and a well‑structured codebase, fitting the definition of a framework rather than a simple library or single script."
+  },
+  {
+    "name": "LazyLLM",
+    "url": "https://github.com/LazyAGI/LazyLLM",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "LazyLLM provides a comprehensive set of APIs, modules, and tooling for assembling multi‑agent LLM applications, with extensive documentation, CI pipelines, tests, and a structured codebase, indicating a mature, opinionated framework rather than a simple script or personal backup."
+  },
+  {
+    "name": "WhisperLive",
+    "url": "https://github.com/collabora/WhisperLive",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a pip-installable package (whisper_live) with a clear API, structured source layout, tests, documentation, and multiple runnable components (server/client, Docker support). This indicates a reusable code library rather than a single script or personal backup, and it follows solid software engineering practices."
+  },
+  {
+    "name": "verifiers",
+    "url": "https://github.com/PrimeIntellect-ai/verifiers",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable package for defining LLM reinforcement‑learning environments, with clear documentation, CI pipelines, structured sub‑packages, and release management, indicating solid engineering practices."
+  },
+  {
+    "name": "agenta",
+    "url": "https://github.com/Agenta-AI/agenta",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository contains a full‑stack codebase with API, core services, database migrations, Dockerfiles, and extensive documentation, indicating a complete runnable platform rather than a simple library or script. Its organized structure, CI/CD setup, and clear purpose as an LLMOps platform demonstrate solid engineering practices."
+  },
+  {
+    "name": "gpytorch",
+    "url": "https://github.com/cornellius-gp/gpytorch",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "GPyTorch is a reusable Python library providing a public API for Gaussian process modeling, with extensive documentation, examples, CI badges, and a structured codebase. It follows standard software engineering practices, indicating a serious, well‑built project."
+  },
+  {
+    "name": "segment-geospatial",
+    "url": "https://github.com/opengeos/segment-geospatial",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (pyproject.toml, public API, extensive documentation, examples, and tests) for segmenting geospatial data, fitting the definition of a library. It follows solid software practices with structured code, testing, packaging, and documentation, indicating a serious, well‑built project."
+  },
+  {
+    "name": "zvt",
+    "url": "https://github.com/zvtvz/zvt",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "ZVT provides a reusable Python package for quantitative trading with a clear public API, extensive documentation, CI pipelines, tests, and example code, indicating solid engineering practices. Its structure (src/, docs/, examples/, CI configs) and release process show it is a well‑maintained library rather than a simple script or personal backup."
+  },
+  {
+    "name": "zep",
+    "url": "https://github.com/getzep/zep",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "other",
+    "confidence": "medium",
+    "reasoning": "The repository is a well‑structured collection of examples, benchmarks, and integration utilities for the Zep platform, with documentation, tests, and build files, but it does not constitute a reusable library, framework, or standalone application, fitting best into the \"other\" category."
+  },
+  {
+    "name": "nexent",
+    "url": "https://github.com/ModelEngine-Group/nexent",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository contains a full backend codebase, Docker deployment scripts, extensive documentation, and CI badges, indicating a complete runnable platform rather than a simple library or script. Its organized structure and production‑grade tooling suggest it is a serious, well‑built software project."
+  },
+  {
+    "name": "gptme",
+    "url": "https://github.com/gptme/gptme",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "gptme is a fully featured CLI AI agent with extensive documentation, a structured codebase, CI pipelines, and release history, indicating a serious, production‑ready application rather than a simple script or personal backup."
+  },
+  {
+    "name": "executorch",
+    "url": "https://github.com/pytorch/executorch",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "ExecuTorch is a comprehensive, documented codebase providing reusable C++/Python APIs and backends for on‑device AI inference, with tests, build scripts, and CI, indicating a serious, well‑engineered library rather than a simple script or personal backup."
+  },
+  {
+    "name": "flash-linear-attention",
+    "url": "https://github.com/fla-org/flash-linear-attention",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable code package of Triton‑based linear attention implementations with a clear API, documentation, examples, and benchmarks, organized into a structured codebase. It is not a single script or personal notes, indicating solid engineering practices."
+  },
+  {
+    "name": "MemMachine",
+    "url": "https://github.com/MemMachine/MemMachine",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "MemMachine provides a runnable server (service) with client SDKs, extensive documentation, Docker support, and a structured repository, indicating a production-ready application rather than a simple script or personal backup."
+  },
+  {
+    "name": "Kokoro-FastAPI",
+    "url": "https://github.com/remsky/Kokoro-FastAPI",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository provides a complete FastAPI service for TTS, with organized source code, configuration, Docker support, and a comprehensive test suite, indicating solid engineering practices. Documentation and versioning are present, showing a clear purpose beyond a personal script. Hence it qualifies as a well‑built application."
+  },
+  {
+    "name": "gpustack",
+    "url": "https://github.com/gpustack/gpustack",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "GPUStack is a full-featured GPU cluster manager service with extensive documentation, Docker compose setups, migrations, and test configuration, indicating a complete runnable product rather than a library or script. The repository shows organized structure and engineering practices, qualifying it as a well‑built application."
+  },
+  {
+    "name": "plotnine",
+    "url": "https://github.com/has2k1/plotnine",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "plotnine provides a reusable Python API for grammar-of-graphics plotting, includes extensive source structure, documentation, CI/CD, and test coverage, indicating a mature, well‑engineered library."
+  },
+  {
+    "name": "BallonsTranslator",
+    "url": "https://github.com/dmMaze/BallonsTranslator",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository provides a complete, runnable desktop application for manga translation with extensive documentation, organized source/assets, configuration files, and installation scripts, indicating a clear purpose and solid software engineering practices."
+  },
+  {
+    "name": "AITemplate",
+    "url": "https://github.com/facebookincubator/AITemplate",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "AITemplate is a comprehensive Python framework for compiling deep learning models into high‑performance CUDA/HIP code, with extensive documentation, CI pipelines, examples, and a structured codebase, indicating a serious, well‑engineered project."
+  },
+  {
+    "name": "deep-person-reid",
+    "url": "https://github.com/KaiyangZhou/deep-person-reid",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (setup.py, public API, extensive docs) for person re-identification, with a well‑structured codebase, configs, and tooling. It is clearly maintained and documented, indicating a serious, well‑built project."
+  },
+  {
+    "name": "chronos-forecasting",
+    "url": "https://github.com/amazon-science/chronos-forecasting",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (src/chronos) with a public API for pretrained forecasting models, includes proper packaging (pyproject.toml), documentation, tests, and training/evaluation scripts, indicating solid engineering practices."
+  },
+  {
+    "name": "transformerlab-app",
+    "url": "https://github.com/transformerlab/transformerlab-app",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository contains a full-featured, documented AI research platform with a structured codebase, extensive test suite, Docker deployment scripts, and a clear public purpose, indicating a serious, well‑engineered application."
+  },
+  {
+    "name": "h2o-llmstudio",
+    "url": "https://github.com/h2oai/h2o-llmstudio",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository provides a complete, runnable GUI/CLI product for fine‑tuning LLMs, with extensive documentation, Docker support, and a structured codebase, indicating a serious, well‑engineered software project."
+  },
+  {
+    "name": "tilelang",
+    "url": "https://github.com/tile-ai/tilelang",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "TileLang provides a reusable DSL/compiler API for high‑performance kernels, with extensive documentation, examples, benchmarks, and a structured codebase (CMake, docs, examples, third‑party deps). It is clearly intended for import by other projects, not a single script or personal notes."
+  },
+  {
+    "name": "VideoCrafter",
+    "url": "https://github.com/AILab-CVC/VideoCrafter",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a structured codebase with model definitions, training/evaluation scripts, configs, and a Gradio demo, indicating it is a tool for training and using video diffusion models. Documentation and organization suggest a serious, well‑built project."
+  },
+  {
+    "name": "torchtitan",
+    "url": "https://github.com/pytorch/torchtitan",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository contains a well-structured, documented codebase with a public API, extensive tests, CI badges, and configuration files, indicating a serious engineering effort. It provides an opinionated scaffolding for building and training generative AI models on PyTorch, fitting the definition of a framework rather than a simple library or script."
+  },
+  {
+    "name": "UltraRAG",
+    "url": "https://github.com/OpenBMB/UltraRAG",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "UltraRAG provides a comprehensive, documented scaffold (Dockerfiles, yaml pipelines, prompts, server modules) for building RAG applications, indicating a reusable framework rather than a single app or script. The repository is well‑structured with clear docs, examples, and deployment tooling, showing solid engineering practices."
+  },
+  {
+    "name": "xtuner",
+    "url": "https://github.com/InternLM/xtuner",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive LLM training engine with extensive documentation, structured code (configs, modules, tests, CI), and packaging for public use, indicating a serious, well‑engineered training tool rather than a simple script or personal backup."
+  },
+  {
+    "name": "sahi",
+    "url": "https://github.com/obss/sahi",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (sahi) with a clear public API, extensive documentation, CLI, and unit tests, organized under a src-like layout with a pyproject.toml and CI configuration, indicating solid engineering practices. It is not an application or training script but a library meant to be imported by other projects."
+  },
+  {
+    "name": "Synonyms",
+    "url": "https://github.com/chatopera/Synonyms",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (setup.py, setup.cfg, public API) for Chinese synonym handling, with documentation, structured source code, and example scripts. It is not a single script or personal backup, indicating a serious, well‑built library."
+  },
+  {
+    "name": "coremltools",
+    "url": "https://github.com/apple/coremltools",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "coremltools is a reusable Python library offering a public API for model conversion, with extensive documentation, tests, CI configuration, and a well‑organized codebase. It follows standard software engineering practices, indicating a serious, well‑built project."
+  },
+  {
+    "name": "GLaDOS",
+    "url": "https://github.com/dnhkng/GLaDOS",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository contains a full‑stack AI assistant with organized source code, configuration, Docker support, and documentation, indicating a complete runnable product rather than a simple script or homework. Its structure and tooling meet standard software engineering practices, so it is a well‑built application."
+  },
+  {
+    "name": "rf-detr",
+    "url": "https://github.com/roboflow/rf-detr",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (rfdetr) with a clear public API, extensive documentation, CLI, and training utilities, organized under src/ with tests and CI configuration, indicating solid engineering practices."
+  },
+  {
+    "name": "DeepLabCut",
+    "url": "https://github.com/DeepLabCut/DeepLabCut",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "DeepLabCut provides a reusable Python API for pose estimation, includes extensive documentation, a structured codebase, packaging, CI, and a GUI/CLI, indicating a mature, well‑engineered library rather than a simple script or personal backup."
+  },
+  {
+    "name": "PraisonAI",
+    "url": "https://github.com/MervinPraison/PraisonAI",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, documented multi‑agent AI framework with Docker support, CLI tools, extensive examples, and a clear public API, indicating solid engineering practices rather than a single script or personal backup."
+  },
+  {
+    "name": "chaiNNer",
+    "url": "https://github.com/chaiNNer-org/chaiNNer",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository contains a full-featured, multi‑module codebase (backend, nodes, dependencies, UI assets) with extensive documentation and a clear purpose as a node‑based image processing GUI, indicating a complete, runnable software product. The structure, README, licensing, and active development signals a serious, well‑engineered project."
+  },
+  {
+    "name": "mmf",
+    "url": "https://github.com/facebookresearch/mmf",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "MMF provides a structured, documented, and extensible scaffold for building and training multimodal vision‑language models, with a full codebase, tests, CI, and extensive configs, indicating a serious, well‑engineered project."
+  },
+  {
+    "name": "klavis",
+    "url": "https://github.com/Klavis-AI/klavis",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository contains extensive documentation, a structured layout with Docker support, OAuth scripts, and many integration reference files, indicating a complete, runnable service rather than a simple library or personal script. The presence of CI-like organization and clear purpose (MCP server for AI agents) shows solid engineering practices."
+  },
+  {
+    "name": "audio",
+    "url": "https://github.com/pytorch/audio",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "Torchaudio provides a public API for audio processing, includes extensive documentation, a structured codebase, tests, and CI tooling, fitting the definition of a reusable library. Its mature maintenance, versioning, and community guidelines indicate a serious, well‑built software project."
+  },
+  {
+    "name": "fastvideo",
+    "url": "https://github.com/hao-ai-lab/FastVideo",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, documented suite of libraries, CLI tools, Docker support, and examples for accelerated video generation, indicating a reusable, opinionated scaffold rather than a single script. Its organized structure, extensive docs, and multiple components (training, inference, attention backends) demonstrate solid engineering practices."
+  },
+  {
+    "name": "megatron-lm",
+    "url": "https://github.com/NVIDIA/Megatron-LM",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides extensive training scripts, examples, and documentation for large‑scale transformer model training, indicating a clear purpose as an ML training toolkit. It follows solid engineering practices with structured code, CI, and comprehensive docs, showing it is a serious, well‑maintained project."
+  },
+  {
+    "name": "sglang",
+    "url": "https://github.com/sgl-project/sglang",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "SGLang provides a reusable Python package with a public API for efficient LLM serving and includes extensive documentation, benchmarks, and a structured codebase, indicating a serious, well‑engineered project."
+  },
+  {
+    "name": "TabPFN",
+    "url": "https://github.com/PriorLabs/TabPFN",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (TabPFN) with a clear public API, proper packaging (pyproject.toml), organized source code under src/, comprehensive tests, and documentation. Its structure and tooling indicate a serious, well‑engineered software library rather than a homework or personal script."
+  },
+  {
+    "name": "river",
+    "url": "https://github.com/online-ml/river",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "River provides a reusable Python API for online machine learning, includes extensive documentation, CI pipelines, versioned releases, and a well‑structured codebase. It is clearly a public library rather than an application or personal script, and follows solid software engineering practices."
+  },
+  {
+    "name": "Open-LLM-VTuber",
+    "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository contains a full, runnable VTuber application with a server, frontend, assets, configuration templates, CI badges, Docker support, and extensive documentation, indicating a well‑structured, production‑oriented project."
+  },
+  {
+    "name": "data-juicer",
+    "url": "https://github.com/datajuicer/data-juicer",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "Data-Juicer is a published Python package with a clear public API, extensive documentation, CLI entry points, and a modular architecture for data processing, fitting the definition of a reusable library. The repository includes structured code, configuration files, and CI badges, indicating solid software engineering practices."
+  },
+  {
+    "name": "doctr",
+    "url": "https://github.com/mindee/doctr",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable OCR library with a public API, extensive documentation, tests, CI pipelines, and packaging files (pyproject.toml). Its structured layout, versioned releases, and community support indicate a serious, well‑engineered software project."
+  },
+  {
+    "name": "PaddleX",
+    "url": "https://github.com/PaddlePaddle/PaddleX",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "PaddleX provides a comprehensive, documented API and pipelines for building AI applications, with structured source code, examples, deployment tooling, and active maintenance, indicating a mature framework rather than a single script or personal backup."
+  },
+  {
+    "name": "Kats",
+    "url": "https://github.com/facebookresearch/Kats",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "Kats provides a reusable Python API for time‑series analysis, includes a full package layout, extensive documentation, unit tests, CI badges, and a clear public interface, indicating a serious, well‑engineered library."
+  },
+  {
+    "name": "scikit-image",
+    "url": "https://github.com/scikit-image/scikit-image",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "scikit-image provides a reusable, well-documented Python API for image processing, with a full source layout, extensive documentation, tests, CI configuration, and a clear public purpose. It follows standard software engineering practices and is widely used in the scientific Python ecosystem."
+  },
+  {
+    "name": "intentkit",
+    "url": "https://github.com/crestalnetwork/intentkit",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository contains a well-structured codebase with multiple services, entrypoints, Docker support, and extensive documentation, indicating a serious, reusable framework for building autonomous AI agents rather than a simple script or personal backup."
+  },
+  {
+    "name": "clearml",
+    "url": "https://github.com/clearml/clearml",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "ClearML is a mature, well-documented Python package offering a public API for experiment tracking and MLOps, with a structured codebase, CI/CD, and extensive documentation, indicating a serious, well‑built software project."
+  },
+  {
+    "name": "deepchem",
+    "url": "https://github.com/deepchem/deepchem",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "DeepChem provides a comprehensive, documented API for chemistry‑focused machine learning, with a structured codebase, tests, CI, and packaging files, fitting the definition of a reusable library. Its extensive documentation, community badges, and active maintenance indicate a serious, well‑built software project."
+  },
+  {
+    "name": "flower",
+    "url": "https://github.com/adap/flower",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, documented, and packaged federated learning framework with CI, tests, examples, and a clear public API, indicating serious engineering effort. Its structure (pyproject.toml, docs, multiple sub-packages) and active community signals a well‑built project."
+  },
+  {
+    "name": "mergekit",
+    "url": "https://github.com/arcee-ai/mergekit",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python toolkit with a clear API for model merging, extensive documentation, structured code, and CI integration, indicating a well‑engineered library rather than a single script or personal backup."
+  },
+  {
+    "name": "openllmetry",
+    "url": "https://github.com/traceloop/openllmetry",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides reusable OpenTelemetry instrumentation packages for various LLM providers, with clear documentation, a structured monorepo layout, tests, CI configuration, and packaging files, indicating a serious, well‑engineered library."
+  },
+  {
+    "name": "presidio",
+    "url": "https://github.com/microsoft/presidio",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "Presidio is a mature, Microsoft‑maintained open‑source library for PII detection and anonymization, with extensive documentation, structured code, tests, Docker/K8s deployment assets, and CI pipelines, indicating a serious, well‑engineered project."
+  },
+  {
+    "name": "sd-scripts",
+    "url": "https://github.com/kohya-ss/sd-scripts",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, well-documented suite of scripts and utilities for training and fine‑tuning various diffusion models, organized into logical directories with extensive README and docs. Its structured codebase, multiple entry points, and clear purpose indicate a serious, production‑grade training tool."
+  },
+  {
+    "name": "cai",
+    "url": "https://github.com/aliasrobotics/cai",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, documented platform (CLI, agents, benchmarks, Docker support) for building cybersecurity AI applications, showing structured code, tests, and CI, indicating a mature framework rather than a single script or personal backup."
+  },
+  {
+    "name": "LiveTalking",
+    "url": "https://github.com/lipku/LiveTalking",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository provides a complete runnable system (app.py, Dockerfile, web UI, model assets) for real‑time digital‑human streaming, with clear documentation and a structured code layout. It is not a single script or personal backup, indicating a serious software project."
+  },
+  {
+    "name": "SlowFast",
+    "url": "https://github.com/facebookresearch/SlowFast",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive codebase for training, evaluating, and fine‑tuning video models, with extensive documentation, configuration files, and a structured layout, indicating a serious, well‑engineered project rather than a simple script or personal backup."
+  },
+  {
+    "name": "NewsBlur",
+    "url": "https://github.com/samuelclay/NewsBlur",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "NewsBlur is a full-featured, self‑hostable web application with extensive documentation, a structured codebase, and comprehensive deployment tooling (Ansible, Docker, CI). It clearly serves a production purpose and follows solid software engineering practices."
+  },
+  {
+    "name": "DjangoBlog",
+    "url": "https://github.com/liangliangyy/DjangoBlog",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository implements a full-featured Django blog web application with multiple reusable apps, comprehensive tests, CI pipelines, Docker/K8s deployment scripts, and detailed README documentation, indicating solid engineering practices."
+  },
+  {
+    "name": "lmdeploy",
+    "url": "https://github.com/InternLM/lmdeploy",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package with a public API, extensive documentation, tests, CI/CD, and deployment utilities, indicating a well‑structured, production‑grade library rather than a simple script or personal backup."
+  },
+  {
+    "name": "timesfm",
+    "url": "https://github.com/google-research/timesfm",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable TimesFM inference library with clear documentation, a structured src/ hierarchy, tests, and packaging metadata (pyproject.toml). It follows standard software engineering practices, making it a well‑built library rather than a simple script or personal backup."
+  },
+  {
+    "name": "bandit",
+    "url": "https://github.com/PyCQA/bandit",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "Bandit is a fully featured security linter CLI tool with extensive documentation, a structured codebase, tests, CI/CD, and a public API, indicating a serious, well‑maintained software project."
+  },
+  {
+    "name": "claude-scientific-skills",
+    "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "other",
+    "confidence": "high",
+    "reasoning": "The repository is a well‑organized collection of scientific 'skills' with documentation, reference material, and example scripts, but it does not constitute a reusable library, framework, or runnable application. Its clear structure and extensive docs indicate a serious, maintainable project."
+  },
+  {
+    "name": "librephotos",
+    "url": "https://github.com/LibrePhotos/librephotos",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "LibrePhotos is a full-featured self‑hosted photo management web service with extensive documentation, a structured Django codebase, migrations, tests, and deployment scripts, indicating a serious, well‑engineered application."
+  },
+  {
+    "name": "boxmot",
+    "url": "https://github.com/mikel-brostrom/boxmot",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "BoxMOT provides a reusable Python package with a clear API for multi-object tracking, includes extensive documentation, CI, Docker support, and a well‑structured codebase, indicating a serious, well‑engineered library."
+  },
+  {
+    "name": "crawlee-python",
+    "url": "https://github.com/apify/crawlee-python",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "Crawlee is a reusable Python package with a public API, extensive documentation, examples, CI/CD, and proper packaging, indicating a well‑structured, production‑ready library."
+  },
+  {
+    "name": "BentoML",
+    "url": "https://github.com/bentoml/BentoML",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "BentoML provides a comprehensive, opinionated platform for building and deploying model serving APIs, exposing a public Python API and extensive documentation, CI/CD pipelines, and a structured codebase, indicating a serious, well‑engineered open‑source project."
+  },
+  {
+    "name": "KAG",
+    "url": "https://github.com/OpenSPG/KAG",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "KAG provides a comprehensive, modular codebase with CLI tools, builders, and extensive documentation for constructing knowledge‑augmented generation pipelines, fitting the definition of an opinionated scaffold rather than a single library or app. The repository is well‑structured, versioned, and includes many components, indicating solid engineering practices."
+  },
+  {
+    "name": "ART",
+    "url": "https://github.com/OpenPipe/ART",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive set of scripts, notebooks, and examples for training multi-step agents with reinforcement learning, along with extensive documentation and organized code structure, indicating a serious, well‑engineered training tool."
+  },
+  {
+    "name": "Bert-VITS2",
+    "url": "https://github.com/fishaudio/Bert-VITS2",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a full codebase for training and inference of a multilingual TTS model, with organized modules, configs, README, and multiple scripts, indicating a serious, purpose‑driven project rather than a personal backup or homework."
+  },
+  {
+    "name": "ai-goofish-monitor",
+    "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository contains a complete, runnable system with a backend service, web UI, Docker deployment, configuration files, and a comprehensive test suite, indicating a production‑grade application. Documentation, structured source layout (src/, tests/, config), and deployment scripts further demonstrate solid software engineering practices."
+  },
+  {
+    "name": "oumi",
+    "url": "https://github.com/oumi-ai/oumi",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides extensive training, inference, and evaluation configurations, examples, and CI pipelines for building foundation models, indicating a purpose-built ML training toolkit. It includes documentation, structured examples, and CI workflows, showing solid engineering practices."
+  },
+  {
+    "name": "OpenRLHF",
+    "url": "https://github.com/OpenRLHF/OpenRLHF",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "OpenRLHF provides a reusable Python package with trainers, models, datasets, and CLI tools for RLHF, acting as an opinionated scaffold for building RL pipelines. The repository includes documentation, structured code, setup files, and multiple training scripts, indicating solid engineering practices."
+  },
+  {
+    "name": "darts",
+    "url": "https://github.com/unit8co/darts",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "Darts is a comprehensive, documented Python package providing a public API for time‑series forecasting and anomaly detection, with a well‑structured codebase, CI/CD, and extensive tests, indicating a serious, well‑engineered library."
+  },
+  {
+    "name": "so-vits-svc-fork",
+    "url": "https://github.com/voicepaw/so-vits-svc-fork",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a full ML pipeline with training scripts, preprocessing, model definitions, inference utilities, and a GUI, fitting the 'training_tool' category. It includes comprehensive documentation, CI/CD, tests, a structured src/ layout, and packaging files, indicating a serious, well‑engineered project."
+  },
+  {
+    "name": "ai-toolkit",
+    "url": "https://github.com/ostris/ai-toolkit",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository contains a well‑structured codebase with multiple modules, configuration examples, Docker support, and documentation aimed at training diffusion models, indicating a serious, purpose‑driven project rather than a personal script or homework."
+  },
+  {
+    "name": "skypilot",
+    "url": "https://github.com/skypilot-org/skypilot",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "SkyPilot is a fully featured CLI/servic​e platform for running and managing AI workloads across clouds, with extensive documentation, tests, CI/CD, Dockerfiles, Helm charts, and a structured codebase. This indicates a serious, well‑engineered software product rather than a simple script or personal backup."
+  },
+  {
+    "name": "accelerate",
+    "url": "https://github.com/huggingface/accelerate",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "Accelerate provides a reusable Python API for distributed and mixed‑precision training, with extensive documentation, examples, CI configuration, and a structured codebase, indicating a mature, well‑engineered library."
+  },
+  {
+    "name": "ChatRWKV",
+    "url": "https://github.com/BlinkDL/ChatRWKV",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository contains a structured Python package (rwkv_pip_package) with a pyproject.toml, source code, CUDA kernels, and extensive documentation and demo scripts, indicating a reusable library for RWKV inference rather than a single script or personal notes."
+  },
+  {
+    "name": "moshi",
+    "url": "https://github.com/kyutai-labs/moshi",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository provides a complete, runnable speech‑text dialogue system with inference stacks (PyTorch, MLX, Rust), Docker deployment, and a web UI client, showing clear purpose, documentation, and structured code. It follows software engineering practices, so it is a well‑built application."
+  },
+  {
+    "name": "pyod",
+    "url": "https://github.com/yzhao062/pyod",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "PyOD provides a reusable Python package with a public API for outlier detection, includes extensive documentation, examples, tests, CI workflows, and a structured codebase, indicating a serious, well‑engineered library."
+  },
+  {
+    "name": "LEANN",
+    "url": "https://github.com/yichuan-w/LEANN",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable vector database (LEANN) with extensive documentation, examples, benchmarks, Docker support, and CI badges, indicating a structured, public-facing codebase rather than a single script or personal notes. Its organization and tooling suggest a well‑engineered library."
+  },
+  {
+    "name": "RD-Agent",
+    "url": "https://github.com/microsoft/RD-Agent",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, documented, and CI‑tested codebase (pyproject.toml, CLI, components, extensive docs) aimed at enabling users to build AI research agents, fitting the definition of a framework. Its structure, tooling, and community badges indicate a serious, well‑engineered project."
+  },
+  {
+    "name": "text-generation-inference",
+    "url": "https://github.com/huggingface/text-generation-inference",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository provides a full-featured, documented server (CLI, Docker images, gRPC API) for serving LLMs, with a structured multi-language codebase, CI, tests, and production usage, indicating a serious, well‑engineered software product."
+  },
+  {
+    "name": "wandb",
+    "url": "https://github.com/wandb/wandb",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "W&B is a widely used, documented Python library with a comprehensive codebase, tests, CI/CD, and clear purpose of providing an API for experiment tracking. The repository includes proper packaging, extensive documentation, and engineering practices, indicating a serious, well-built software project."
+  },
+  {
+    "name": "llm",
+    "url": "https://github.com/simonw/llm",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package with a public API, extensive documentation, tests, CI configuration, and a CLI entry point, indicating a well‑structured, purpose‑driven library rather than a single script or personal backup."
+  },
+  {
+    "name": "axolotl",
+    "url": "https://github.com/axolotl-ai-cloud/axolotl",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "Axolotl is a comprehensive open‑source LLM fine‑tuning framework with extensive documentation, CI/CD pipelines, Docker support, examples, and a structured codebase, indicating a serious, well‑engineered training tool."
+  },
+  {
+    "name": "Gymnasium",
+    "url": "https://github.com/Farama-Foundation/Gymnasium",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "Gymnasium provides a reusable Python API for RL environments, includes extensive documentation, CI configuration, tests, and packaging files, fitting the definition of a well‑structured library. Its mature codebase and community support indicate a serious, well‑built software project."
+  },
+  {
+    "name": "lm-evaluation-harness",
+    "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable evaluation harness with a public API, CLI, and extensive documentation, organized into a clear package structure. It follows standard software engineering practices (setup, CI, modular code), indicating a serious, well‑built library."
+  },
+  {
+    "name": "Time-Series-Library",
+    "url": "https://github.com/thuml/Time-Series-Library",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable collection of time‑series models, layers, and utilities with clear documentation, a structured codebase, and supporting scripts/Dockerfile, indicating a serious, well‑maintained library rather than a single experiment or personal backup."
+  },
+  {
+    "name": "DiffSynth-Studio",
+    "url": "https://github.com/modelscope/DiffSynth-Studio",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, modular diffusion model engine with pipelines, model definitions, training utilities, and extensive documentation, indicating a reusable scaffold rather than a single script. Its organized package structure, versioning, and clear purpose demonstrate solid software engineering practices."
+  },
+  {
+    "name": "Memori",
+    "url": "https://github.com/MemoriLabs/Memori",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (memori) with a public API, extensive documentation, examples, tests, CI configuration, and packaging files, indicating a well‑structured, production‑grade library."
+  },
+  {
+    "name": "instructor",
+    "url": "https://github.com/567-labs/instructor",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "Instructor provides a reusable Python package with a clear public API for extracting structured data from LLMs, includes extensive documentation, a proper packaging configuration, tests, and CI tooling. The repository is organized with source code, docs, and examples, reflecting solid software engineering practices."
+  },
+  {
+    "name": "RAG-Anything",
+    "url": "https://github.com/HKUDS/RAG-Anything",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repo provides a reusable, opinionated RAG system with a clear public API, extensive documentation, examples, and tests, organized via pyproject.toml and a proper package layout, indicating a serious, well‑engineered project."
+  },
+  {
+    "name": "ms-swift",
+    "url": "https://github.com/modelscope/ms-swift",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, documented infrastructure for fine‑tuning large language and multimodal models, with extensive guides, CLI parameters, and integration with ModelScope, indicating a reusable, opinionated framework rather than a single script. The presence of structured documentation, installation scripts, and active community badges shows solid engineering practices."
+  },
+  {
+    "name": "stable-baselines3",
+    "url": "https://github.com/DLR-RM/stable-baselines3",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "Stable‑Baselines3 provides a reusable Python package with a clear public API for RL algorithms, includes extensive documentation, CI pipelines, tests, and packaging files (pyproject.toml, setup.py). Its structured codebase and engineering practices indicate a serious, well‑built library."
+  },
+  {
+    "name": "gorilla",
+    "url": "https://github.com/ShishirPatil/gorilla",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "medium",
+    "reasoning": "The repository provides a comprehensive benchmark and evaluation framework (Berkeley Function Calling Leaderboard) along with supporting data and a web app for comparing agents, which is typical of a training/evaluation tool rather than a reusable library. The codebase is well‑structured with separate packages, documentation, and runnable components, indicating solid engineering practices."
+  },
+  {
+    "name": "SurfSense",
+    "url": "https://github.com/MODSetter/SurfSense",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "SurfSense is a full‑stack web service with a documented purpose, extensive codebase, Docker setup, migrations, and README, indicating a complete, runnable application built with solid engineering practices."
+  },
+  {
+    "name": "VideoCaptioner",
+    "url": "https://github.com/WEIFENG2333/VideoCaptioner",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository contains a full-featured desktop application with a clear purpose, extensive documentation, organized package structure, UI components, and multiple modules, indicating solid software engineering practices."
+  },
+  {
+    "name": "Qwen-Agent",
+    "url": "https://github.com/QwenLM/Qwen-Agent",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, documented scaffold for building LLM agents, with a structured codebase, examples, benchmarks, and clear documentation, indicating a serious, well‑engineered project rather than a simple script or personal backup."
+  },
+  {
+    "name": "deepeval",
+    "url": "https://github.com/confident-ai/deepeval",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package with a clear public API for LLM evaluation, extensive documentation, and a well‑structured codebase. It follows standard packaging conventions and appears maintained, indicating a serious, well‑built software project."
+  },
+  {
+    "name": "F5-TTS",
+    "url": "https://github.com/SWivid/F5-TTS",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a full codebase for training, evaluating, and inferring a TTS model, with organized src/, configs, scripts, Dockerfile, and documentation, indicating a serious, well‑structured ML training tool rather than a simple script or personal backup."
+  },
+  {
+    "name": "llmware",
+    "url": "https://github.com/llmware-ai/llmware",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package with a public API (ModelCatalog, prompts, etc.), extensive documentation, examples, and CI workflows, indicating a well-structured, purpose‑driven library rather than a single script or personal backup."
+  },
+  {
+    "name": "FunASR",
+    "url": "https://github.com/modelscope/FunASR",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive toolkit for training, fine‑tuning, and evaluating speech recognition models, with extensive documentation, examples, and a structured codebase, indicating a serious, well‑engineered project."
+  },
+  {
+    "name": "cvat",
+    "url": "https://github.com/cvat-ai/cvat",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "CVAT is a full-featured, self‑hosted web application for image/video annotation with extensive documentation, Docker images, CI pipelines, and a large, modular codebase. The repository follows standard software engineering practices (tests, migrations, configuration, CI, versioned releases), indicating a serious, production‑ready project."
+  },
+  {
+    "name": "AstrBot",
+    "url": "https://github.com/AstrBotDevs/AstrBot",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository contains a full codebase with CLI, Dockerfile, extensive documentation, modular architecture, and clear entry points, indicating a complete runnable software product rather than a simple library or personal script."
+  },
+  {
+    "name": "hummingbot",
+    "url": "https://github.com/hummingbot/hummingbot",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "Hummingbot provides an extensive, documented scaffold for building and running automated trading bots, with a structured codebase, CLI, connectors, and CI pipelines, indicating a serious, well‑engineered open‑source project."
+  },
+  {
+    "name": "camel",
+    "url": "https://github.com/camel-ai/camel",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, documented codebase with many modules (agents, benchmarks, bots, configs) and tests, targeting reusable AI agent functionality, indicating a well‑structured framework rather than a simple script or personal backup."
+  },
+  {
+    "name": "agentscope",
+    "url": "https://github.com/agentscope-ai/agentscope",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, documented agent framework with a structured codebase, tutorials, examples, and production-ready features, indicating a serious, well‑engineered project rather than a simple script or personal backup."
+  },
+  {
+    "name": "networkx",
+    "url": "https://github.com/networkx/networkx",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "NetworkX is a mature, widely-used Python library with a clear public API, extensive documentation, tests, CI, and packaging metadata, fitting the definition of a reusable code package. Its structured repository, versioned releases, and active community demonstrate solid software engineering practices."
+  },
+  {
+    "name": "onyx",
+    "url": "https://github.com/onyx-dot-app/onyx",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository contains a full-featured, documented AI platform with a structured backend, Dockerfiles, migrations, and extensive README, indicating a complete runnable product rather than a simple script or personal backup."
+  },
+  {
+    "name": "DB-GPT",
+    "url": "https://github.com/eosphoros-ai/DB-GPT",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, documented platform (DB‑GPT) for building AI‑native data applications, with extensive configs, Docker support, docs, and modular code, indicating a serious, well‑structured framework rather than a simple script or personal backup."
+  },
+  {
+    "name": "sentence-transformers",
+    "url": "https://github.com/huggingface/sentence-transformers",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package with a clear public API for computing embeddings, cross‑encoders, and sparse encoders, complete with extensive documentation, examples, and a structured codebase. It follows standard packaging practices (setup, CI, tests) and is widely used, indicating a serious, well‑engineered library."
+  },
+  {
+    "name": "openai-agents-python",
+    "url": "https://github.com/openai/openai-agents-python",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python SDK with a clear public API, extensive documentation, and a well‑structured codebase (src/, docs/, examples/, CI configuration). It follows standard software engineering practices, indicating a serious, well‑built project."
+  },
+  {
+    "name": "verl",
+    "url": "https://github.com/verl-project/verl",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, documented API and opinionated scaffolding for building RLHF pipelines, indicating a reusable framework rather than a single script. It includes extensive documentation, Docker support, and structured code, showing solid engineering practices."
+  },
+  {
+    "name": "taipy",
+    "url": "https://github.com/Avaiga/taipy",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "Taipy provides an opinionated, reusable Python API and tooling for building data & AI web applications, with extensive documentation, examples, and a structured codebase, indicating a mature, well‑engineered open‑source project."
+  },
+  {
+    "name": "CosyVoice",
+    "url": "https://github.com/FunAudioLLM/CosyVoice",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive codebase for training, fine‑tuning, and evaluating large TTS models, with clear documentation, organized modules, examples, and Docker support, indicating a serious, well‑structured project."
+  },
+  {
+    "name": "MaxKB",
+    "url": "https://github.com/1Panel-dev/MaxKB",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "MaxKB is a full-featured, runnable platform (web service) with extensive documentation, a structured codebase, and production-ready Docker images, indicating a serious, well‑engineered software project."
+  },
+  {
+    "name": "peft",
+    "url": "https://github.com/huggingface/peft",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "PEFT provides a reusable Python package with a public API for parameter‑efficient fine‑tuning, includes extensive documentation, examples, and a structured codebase, indicating solid engineering practices. It is clearly intended for integration into other projects rather than being a single script or personal backup."
+  },
+  {
+    "name": "letta",
+    "url": "https://github.com/letta-ai/letta",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository contains a full backend service with Dockerfile, Alembic migrations, extensive documentation, and a clear purpose of providing a stateful agent platform, indicating a well-structured, production-ready application."
+  },
+  {
+    "name": "unilm",
+    "url": "https://github.com/microsoft/unilm",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository contains multiple well-structured sub‑projects with training scripts, model definitions, evaluation utilities, and extensive configuration files, indicating it is intended for training and experimenting with AI models. Documentation and organized code suggest a serious, professionally maintained project."
+  },
+  {
+    "name": "flash-attention",
+    "url": "https://github.com/Dao-AILab/flash-attention",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "FlashAttention provides a reusable, high‑performance attention kernel library with Python bindings, a clear README, setup scripts, extensive C++/CUDA source, and CI/testing infrastructure, indicating solid engineering practices."
+  },
+  {
+    "name": "deepface",
+    "url": "https://github.com/serengil/deepface",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "DeepFace provides a reusable Python package with a clear public API for face recognition and attribute analysis, documented in a detailed README and supported by CI, Docker, and a structured codebase. The repository includes multiple modules, tests, and deployment scripts, indicating solid engineering practices."
+  },
+  {
+    "name": "Scrapegraph-ai",
+    "url": "https://github.com/ScrapeGraphAI/Scrapegraph-ai",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package with a clear public API for LLM‑driven web scraping, includes extensive documentation, examples, CI/CD pipelines, and linting configuration, indicating solid engineering practices."
+  },
+  {
+    "name": "pytorch_geometric",
+    "url": "https://github.com/pyg-team/pytorch_geometric",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (setup.py, extensive API, documentation) for graph neural network research, with a well‑structured codebase, benchmarks, and community support, indicating a serious, well‑engineered library."
+  },
+  {
+    "name": "mlflow",
+    "url": "https://github.com/mlflow/mlflow",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "MLflow is a mature, open‑source Python package with a clear purpose (experiment tracking, model registry, etc.), extensive documentation, a well‑structured codebase, tests, and CI/CD. It follows solid software engineering practices, indicating a serious, well‑built project."
+  },
+  {
+    "name": "fish-speech",
+    "url": "https://github.com/fishaudio/fish-speech",
+    "test_tool": "no",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository contains a full training pipeline (train.py, configs, datasets, model definitions) along with inference utilities and documentation, indicating a purpose-built ML training tool. The codebase is well‑structured, documented, and includes packaging, Docker support, and a clear project layout, reflecting solid software engineering practices."
+  },
+  {
+    "name": "litellm",
+    "url": "https://github.com/BerriAI/litellm",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "LiteLLM provides a reusable Python SDK with a clear public API for interacting with many LLM providers, includes proper packaging (setup/pyproject), extensive documentation, CI/CD pipelines, and a structured codebase. These characteristics indicate a serious, well‑engineered library rather than a simple script or personal backup."
+  },
+  {
+    "name": "pytorch-image-models",
+    "url": "https://github.com/huggingface/pytorch-image-models",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable PyTorch model library with a clear public API, extensive documentation, tests, CI configuration, and packaging metadata (pyproject.toml). Its structured layout, versioned releases, and active maintenance indicate a serious, well‑engineered software project."
+  },
+  {
+    "name": "exo",
+    "url": "https://github.com/exo-explore/exo",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "The repository contains a full macOS desktop application (Swift/Xcode) and a web dashboard (Svelte) with structured source trees, tests, documentation, and build configurations, indicating a serious, production‑grade software product."
+  },
+  {
+    "name": "gradio",
+    "url": "https://github.com/gradio-app/gradio",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "Gradio provides a reusable Python package (with a public API, pyproject.toml, extensive documentation, and a client library) that developers import to build ML web apps, fitting the definition of a library. The repository includes CI pipelines, tests, clear documentation, and a well‑structured codebase, indicating a serious, well‑engineered project."
+  },
+  {
+    "name": "nanochat",
+    "url": "https://github.com/karpathy/nanochat",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a complete, documented harness for training, evaluating, and interacting with LLMs, with a clear purpose, a structured codebase, tests, and a pyproject.toml for packaging. It goes beyond a single script or personal notes, showing solid engineering practices. Hence it qualifies as a well‑built training tool."
+  },
+  {
+    "name": "crewAI",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "CrewAI provides a comprehensive, documented Python package for building multi‑agent systems, with extensive docs, examples, and a clear public API, fitting the definition of an opinionated framework. The repository shows solid structure, tests, CI, and community adoption, indicating a serious, well‑built project."
+  },
+  {
+    "name": "freqtrade",
+    "url": "https://github.com/freqtrade/freqtrade",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "Freqtrade is a fully featured, runnable crypto trading bot with CLI, web UI, extensive documentation, CI/CD, Docker support, and a structured codebase, indicating a serious, well‑engineered software project."
+  },
+  {
+    "name": "llama_index",
+    "url": "https://github.com/run-llama/llama_index",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "LlamaIndex provides a reusable Python API for building LLM-powered applications, with extensive documentation, a structured codebase, tests, and CI pipelines, indicating a mature, well‑engineered library."
+  },
+  {
+    "name": "unsloth",
+    "url": "https://github.com/unslothai/unsloth",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "The repository provides a reusable Python package (with pyproject.toml, public API, extensive modules and kernels) aimed at accelerating model fine‑tuning, and includes thorough documentation, a structured code layout, and a comprehensive test suite, indicating solid engineering practices."
+  },
+  {
+    "name": "vllm",
+    "url": "https://github.com/vllm-project/vllm",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "vLLM provides a reusable Python package with a public API for fast LLM inference and serving, complete with documentation, tests, CI, and extensive code structure, indicating a serious, well‑engineered project."
+  },
+  {
+    "name": "models",
+    "url": "https://github.com/tensorflow/models",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive collection of model implementations, training scripts, and utilities for TensorFlow, organized into clearly defined packages with extensive documentation and tests. It follows professional software engineering practices (CI, modular structure, versioned releases) and is maintained by the TensorFlow team, indicating a serious, well‑built project."
+  },
+  {
+    "name": "core",
+    "url": "https://github.com/home-assistant/core",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "high",
+    "reasoning": "Home Assistant core is a full-featured, production-ready home automation server with extensive documentation, CI/CD, tests, and a well‑structured codebase. It is a complete runnable product rather than a reusable library or simple script."
+  },
+  {
+    "name": "lmflow",
+    "url": "https://github.com/OptimalScale/LMFlow",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "training_tool",
+    "confidence": "high",
+    "reasoning": "LMFlow provides a comprehensive, documented toolbox with configs, examples, and a structured codebase for fine‑tuning large models, fitting the definition of a training tool. The repository includes extensive documentation, contribution guidelines, and organized directories, indicating solid engineering practices."
+  },
+  {
+    "name": "modelscope",
+    "url": "https://github.com/modelscope/modelscope",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "ModelScope provides a public Python API for model inference, training, and evaluation, with extensive documentation, structured source code, tests, and packaging, indicating a mature, reusable library rather than a single script or personal backup."
+  },
+  {
+    "name": "vnpy",
+    "url": "https://github.com/vnpy/vnpy",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "framework",
+    "confidence": "high",
+    "reasoning": "The repository provides a comprehensive, documented, and modular quantitative trading system with a clear public API, extensive examples, tests, CI configuration, and a pyproject.toml, indicating a well‑engineered framework rather than a single script or personal backup."
+  },
+  {
+    "name": "qua-libs",
+    "url": "https://github.com/qua-platform/qua-libs",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "medium",
+    "reasoning": "The repository is a curated collection of reusable QUA tools, tutorials, quantum-control application scripts and the QUAlibration calibration-graph library, organised in clear top-level folders with a pyproject.toml, contribution guide and CI workflow. Test folders exist (qualibration_graphs/superconducting/tests), so it shows real engineering practice, although much of the content is example scripts rather than one importable package, which lowers confidence in the library label.",
+    "annotation_source": "Claude, same prompt and criteria as llm_as_judge.py; test_tool from has_test_folder(); GitHub snapshot cloned 2026-11-06"
+  },
+  {
+    "name": "torchgeo",
+    "url": "https://github.com/torchgeo/torchgeo",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "TorchGeo is a PyTorch domain library providing datasets, samplers, transforms and pre-trained models for geospatial data, published on PyPI and conda-forge. It has a pyproject.toml, a dedicated tests/ suite, documentation (docs/, Read the Docs) and several GitHub Actions workflows, indicating a mature, well-engineered library.",
+    "annotation_source": "Claude, same prompt and criteria as llm_as_judge.py; test_tool from has_test_folder(); GitHub snapshot cloned 2026-11-06"
+  },
+  {
+    "name": "great_expectations",
+    "url": "https://github.com/great-expectations/great_expectations",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "library",
+    "confidence": "high",
+    "reasoning": "GX Core is a pip-installable Python package for data quality validation, with setup.py/pyproject.toml, a large tests/ suite, extensive docs, contribution and development guides, and many CI workflows. It is a mature, actively maintained library meant to be imported by other projects.",
+    "annotation_source": "Claude, same prompt and criteria as llm_as_judge.py; test_tool from has_test_folder(); GitHub snapshot cloned 2026-11-06"
+  },
+  {
+    "name": "airbyte",
+    "url": "https://github.com/airbytehq/airbyte",
+    "test_tool": "yes",
+    "well_built_project": "yes",
+    "project_type": "application",
+    "confidence": "medium",
+    "reasoning": "Airbyte is an open-source data-movement (ELT) platform delivered as a complete product, with a monorepo of connectors, a connector CDK, docs, Gradle and Poetry builds, pytest configuration, test suites and dozens of CI workflows. It is clearly well engineered; it is classified as an application because the repository is the runnable platform and its connectors, although parts of it (the CDK) could also be seen as a framework.",
+    "annotation_source": "Claude, same prompt and criteria as llm_as_judge.py; test_tool from has_test_folder(); GitHub snapshot cloned 2026-11-06"
+  }
+]
